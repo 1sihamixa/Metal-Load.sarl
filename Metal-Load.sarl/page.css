@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.demo {
+  border-style:solid red;
+  border-radius:10px;
+  background-image:linear-gradient(to right,red,orange);
+  color:white;
+  text-align: center;
+}
+i {
+  background-image: linear-gradient(to right,red,orange);
+  font-size: 60px;
+  text-align:center;
+  margin-top:25px;
+}
+._span {
+  color: red;
+  font-size: 60px;
+  text-align:center;
+}
+i,
+._span,
+.az {
+  display: block;
+}
+.az {
+  color:white;
+  display: flex;
+  font-size:large;
+  text-align:center;
+  margin-left:35px;
+}
+._div {
+  display: flex;
+  border-width:100%;
+  border:5px solid red;
+  border-radius:10px;
+
+  
+}
+.emo {
+    display: block;
+    margin-left:180px;
+    text-align:center;
+    width: 20%;
+    justify-content:space-between;
+    border:none;
+}
